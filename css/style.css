@@ -1,0 +1,39 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand',sans-serif;
+}
+
+body{
+	background-color: #fafafa;
+    margin: 0px;
+}
+
+nav{
+    position: relative;
+    background: #fafafa;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 100;
+    border-bottom: 1px solid rgb(172, 172, 172);
+  }
+nav .menu{
+    
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    
+  }
+
+.content{
+    display: block;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
